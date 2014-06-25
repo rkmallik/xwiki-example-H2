@@ -10,11 +10,11 @@ Create an account at http://openshift.redhat.com/ , don't forget to create a nam
 
 Install the client tools on your machine if you have not already done so.
 
-	sudo gem install rhc
+     sudo gem install rhc
 
 After the OpenShift client tools are installed, run:
 
-        rhc setup
+    rhc setup
 
 The OpenShift interactive setup wizard displays and prompts you to complete the rest of the process. If you cannot run the OpenShift client tools at this point, please contact us on IRC or post in our forums for more assistance.
 
