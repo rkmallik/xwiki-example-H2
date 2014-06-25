@@ -12,7 +12,13 @@ Install the client tools on your machine if you have not already done so.
 
 	sudo gem install rhc
 
-Create the application.
+After the OpenShift client tools are installed, run:
+
+        rhc setup
+
+The OpenShift interactive setup wizard displays and prompts you to complete the rest of the process. If you cannot run the OpenShift client tools at this point, please contact us on IRC or post in our forums for more assistance.
+
+Now, create the application.
 
     rhc app create -a xwiki jbosseap-6 -g large --from-code git://github.com/rkmallik/xwiki-example-H2
 
